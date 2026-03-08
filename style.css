@@ -1,0 +1,47 @@
+body {
+background: #0f0f0f;
+color: white;
+font-family: Arial;
+margin: 0;
+text-align: center;
+}
+
+header {
+padding: 60px;
+background: linear-gradient(90deg,#7b2ff7,#f107a3);
+}
+
+header h1 {
+font-size: 48px;
+}
+
+section {
+padding: 50px;
+}
+
+.projects {
+background: #141414;
+}
+
+.project-card {
+background: #1f1f1f;
+margin: 20px auto;
+padding: 20px;
+width: 300px;
+border-radius: 10px;
+transition: transform 0.3s;
+}
+
+.project-card:hover {
+transform: scale(1.05);
+background: #292929;
+}
+
+h2 {
+color: #f107a3;
+}
+
+footer {
+padding: 20px;
+background: #000;
+}
