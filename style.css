@@ -161,6 +161,30 @@ box-shadow:0 0 15px rgba(255,255,255,0.2);
 }
 
 
+.card-link{
+text-decoration:none;
+color:white;
+}
+
+.game-page{
+padding:80px 120px;
+text-align:center;
+}
+
+.game-images{
+margin-top:40px;
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.game-images img{
+width:300px;
+border-radius:10px;
+}
+
+
 /* ABOUT */
 
 .about{
