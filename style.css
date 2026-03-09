@@ -1,24 +1,29 @@
+/* BODY */
+
 body{
 margin:0;
 font-family:'Inter',sans-serif;
-background:#0a0a0a;
+background:white;
 color:black;
 }
 
 
-/* NAVBAR */
+/* NAVBAR (HEADER) */
 
 .navbar{
 display:flex;
 justify-content:space-between;
+align-items:center;
 padding:20px 80px;
-background:white;
+background:black;
+color:white;
 }
 
 .navbar ul{
 display:flex;
 gap:30px;
 list-style:none;
+color:white;
 }
 
 
@@ -26,6 +31,7 @@ list-style:none;
 
 .intro{
 padding:80px 100px;
+background:white;
 }
 
 .intro-container{
@@ -101,7 +107,6 @@ background:linear-gradient(
 );
 
 animation:spin 4s linear infinite;
-
 filter:blur(8px);
 opacity:0.9;
 }
@@ -113,10 +118,11 @@ content:"";
 position:absolute;
 width:260px;
 height:260px;
-background:#0a0a0a;
+background:white;
 border-radius:50%;
 z-index:1;
 }
+
 
 /* ROTATION ANIMATION */
 
@@ -136,6 +142,7 @@ transform:rotate(360deg);
 .work{
 padding:100px 80px;
 text-align:center;
+background:white;
 }
 
 .grid{
@@ -146,7 +153,7 @@ margin-top:40px;
 }
 
 .card{
-background:#111;
+background:#f4f4f4;
 padding:20px;
 border-radius:10px;
 transition:0.3s;
@@ -159,15 +166,16 @@ border-radius:8px;
 
 .card:hover{
 transform:translateY(-10px);
-box-shadow:0 0 15px rgba(255,255,255,0.2);
+box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
 
 
-/* ABOUT */
+/* ABOUT SECTION */
 
 .about{
 padding:100px 80px;
 text-align:center;
+background:white;
 }
 
 .about p{
@@ -183,5 +191,6 @@ footer{
 padding:30px;
 text-align:center;
 background:black;
+color:white;
 margin-top:60px;
 }
