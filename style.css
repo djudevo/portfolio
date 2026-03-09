@@ -31,18 +31,9 @@ gap:30px;
 
 .image-column img{
 width:300px;
-border-radius:8px;
-
-/* white neon border */
-border:2px solid white;
-
-/* white glow */
-box-shadow:
-0 0 8px white,
-0 0 15px white,
-0 0 25px white;
-
-margin-bottom:30px;
+border:3px solid #00ffff;
+box-shadow:0 0 15px #00ffff;
+border-radius:6px;
 }
 
 /* TEXT SIDE */
