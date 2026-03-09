@@ -184,6 +184,7 @@ width:300px;
 border-radius:10px;
 }
 
+/* van */
 
 body{
 margin:0;
@@ -197,33 +198,34 @@ font-family:'Inter',sans-serif;
 .navbar{
 padding:20px 80px;
 background:black;
-border-bottom:2px solid #00f7ff;
+border-bottom:2px solid #00ffff;
 font-family:'Orbitron';
+color:#00ffff;
 }
 
-/* GAME PAGE */
+/* PAGE */
 
 .game-page{
-padding:80px;
+padding:80px 120px;
 }
 
 /* LAYOUT */
 
 .game-container{
 display:flex;
-align-items:flex-start;
-gap:60px;
+align-items:center;
+gap:80px;
 }
 
 /* IMAGE */
 
 .game-image img{
-width:450px;
+width:500px;
 border-radius:12px;
-box-shadow:0 0 25px #00f7ff;
+box-shadow:0 0 25px #00ffff;
 }
 
-/* TEXT AREA */
+/* TEXT */
 
 .game-info{
 max-width:600px;
@@ -231,8 +233,8 @@ max-width:600px;
 
 .game-info h1{
 font-family:'Orbitron';
-font-size:40px;
-color:#00f7ff;
+font-size:42px;
+color:#00ffff;
 margin-bottom:10px;
 }
 
@@ -244,6 +246,13 @@ color:#ff00ff;
 margin-bottom:20px;
 }
 
+/* HEADINGS */
+
+.game-info h3{
+color:#00ffff;
+margin-top:25px;
+}
+
 /* LIST */
 
 .game-info ul{
@@ -251,20 +260,12 @@ padding-left:20px;
 line-height:1.8;
 }
 
-/* HEADINGS */
-
-.game-info h3{
-color:#00f7ff;
-margin-top:25px;
-}
-
 /* PARAGRAPH */
 
 .game-info p{
-line-height:1.6;
+line-height:1.7;
 opacity:0.9;
 }
-
 
 /* ABOUT */
 
