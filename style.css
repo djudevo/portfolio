@@ -2,7 +2,7 @@ body{
 margin:0;
 font-family:'Inter',sans-serif;
 background:#0a0a0a;
-color:white;
+color:black;
 }
 
 
@@ -12,7 +12,7 @@ color:white;
 display:flex;
 justify-content:space-between;
 padding:20px 80px;
-background:black;
+background:white;
 }
 
 .navbar ul{
