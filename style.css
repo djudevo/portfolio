@@ -5,64 +5,77 @@ color:white;
 font-family:'Inter',sans-serif;
 }
 
+
 /* NAVBAR */
 
 .navbar{
-padding:20px 80px;
-background:black;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
 border-bottom:2px solid #00ffff;
+box-shadow:0 0 10px #00ffff;
 font-family:'Orbitron';
-color:#00ffff;
+}
+
+.navbar ul{
+display:flex;
+gap:40px;
+list-style:none;
+}
+
+.logo{
+letter-spacing:2px;
 }
 
 
-/* HERO TITLE */
+/* MAIN LAYOUT */
 
-.hero{
-padding:120px 80px 40px 80px;
-text-align:center;
-}
-
-.hero h1{
-font-size:64px;
-font-weight:300;
-letter-spacing:1px;
-}
-
-.hero span{
-font-weight:700;
-color:#00ffff;
-}
-
-
-/* DESCRIPTION SECTION */
-
-.game-description{
+.game-layout{
 display:flex;
 gap:80px;
-padding:40px 120px;
-}
-
-.desc-column{
-flex:1;
-font-size:18px;
-line-height:1.7;
-opacity:0.85;
+padding:60px;
+border:2px solid #00ffff;
+box-shadow:0 0 20px #00ffff;
+margin:40px;
 }
 
 
-/* IMAGE GALLERY */
+/* IMAGE COLUMN */
 
-.gallery{
+.image-column{
 display:flex;
 flex-direction:column;
-align-items:center;
-gap:60px;
-padding:80px 0;
+gap:40px;
 }
 
-.gallery img{
-width:900px;
-border-radius:12px;
-box-shadow:0 0 30px rgba(0,255,255,0.4);
+.image-column img{
+width:260px;
+border:2px solid #ff00ff;
+box-shadow:0 0 15px #ff00ff;
+border-radius:6px;
+}
+
+
+/* GAME INFO */
+
+.game-info{
+max-width:600px;
+}
+
+.game-info h1{
+font-family:'Orbitron';
+color:#00ffff;
+margin-bottom:30px;
+}
+
+.game-info h3{
+font-family:'Orbitron';
+color:#ff00ff;
+margin-top:20px;
+}
+
+.game-info p{
+line-height:1.7;
+opacity:0.9;
 }
